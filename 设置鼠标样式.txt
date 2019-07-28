@@ -1,0 +1,6 @@
+body:hover
+{
+	cursor: url(https://www.jansens520.com/static/images/pc/base/1.cur),auto;
+}
+
+cur后缀的是光标文件
