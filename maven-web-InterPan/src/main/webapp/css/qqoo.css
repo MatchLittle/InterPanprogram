@@ -1,0 +1,121 @@
+<style>
+body {
+  overflow: hidden;
+  margin: 0;
+  
+}
+body:hover
+{
+	cursor: url(https://www.jansens520.com/static/images/pc/base/1.cur),auto;
+}
+/*自定义代码部分*/
+#canv
+{
+	position: absolute;
+	z-index: -1;
+}
+#outside
+{
+	width: 99.8%;
+	height: 99.8%;
+	position: absolute;
+	z-index: 1;
+	background-image: url(../img/qqoo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.85;
+}
+#loginpanel
+{
+	margin:15% auto;
+	width: 30%;
+	height: 35%;
+	background-color: skyblue;
+	opacity: 0.65;
+	border-radius: 5px;
+	font-size: 20px;
+	background-image: url(../img/blueskyxg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#username
+{
+	height: 25px;
+	border-radius: 8px;
+	border: 0.5px mediumslateblue solid;
+	background-color: rgba(0,0,0,0);
+	opacity: 0.6;
+}
+#passwd
+{
+	height: 25px;
+	border-radius: 8px;
+	border: 0.5px mediumslateblue solid;
+	background-color: rgba(0,0,0,0);
+	opacity: 0.6;	
+}
+#login
+{
+	display: block;
+	margin:0 auto;
+	background-color: rgba(0,0,0,0);
+	border: 0.01px skyblue solid;
+}
+td
+{
+	padding: 10px 10px;
+}
+
+/*自定义代码部分*/
+.twitter:hover a {
+  transform: rotate(-45deg) scale(1.05);
+}
+.twitter:hover i {
+  color: #21c2ff;
+}
+.twitter a {
+  bottom: -40px;
+  right: -75px;
+  transform: rotate(-45deg);
+}
+.twitter i {
+  bottom: 7px;
+  right: 7px;
+  color: #00ACED;
+}
+
+.social-icon a {
+  position: absolute;
+  background: white;
+  color: white;
+  box-shadow: -1px -1px 20px 0px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  transform-origin: 50% 50%;
+  transition: .15s ease-out;
+}
+.social-icon i {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  transition: .15s ease-out;
+}
+
+.youtube:hover a {
+  transform: rotate(45deg) scale(1.05);
+}
+.youtube:hover i {
+  color: #ec4c44;
+}
+.youtube a {
+  bottom: -40px;
+  left: -75px;
+  transform: rotate(45deg);
+}
+.youtube i {
+  bottom: 7px;
+  left: 7px;
+  color: #E62117;
+}
+</style>
